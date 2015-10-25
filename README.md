@@ -15,8 +15,9 @@ This repository consists of two versions of a Python to x86 Compiler written in 
 # Instructions to use the Compiler:
   - Clone the repository and change directory to any one of the versions of the compiler.
   - Refer Test-cases directory in each version and the class notes to understand the subsets of the language supported.
-  - Run an example through the compiler by executing the run script (run.sh) with test file as an argument
-    ./run.sh $test_file
+  - Run an example through the compiler by executing the run script (run.sh) with test file as an argument 
+  
+  ./run.sh $test_file
   
 # Credits
 The compiler is a combined effort of [Aniket Lata](https://github.com/aniketalps) and Brandon Ruffin. 
