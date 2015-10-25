@@ -1,0 +1,19 @@
+The following module names map to optimization techniques:
+
+constant folding:
+	compress_add.py
+	compress_boolean.py
+
+algebraic simplification:
+	eliminate_unneeded_unaries.py
+
+boolean short circuiting:
+	compress_boolean.py
+
+conditional simplification:
+	remove_dead_code.py
+
+constant propagation:
+	local_interpreter.py
+
+The AST equivalent checker is in check_ast_equality.py. All of these modules are wrapped up in the optimize_pass.py.
